@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+.idea
+CleanCode_SolidPrinciples.iml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\vahe.aghajanyan\Desktop\Personal\Back End\Spring Projects\CleanCode_SolidPrinciples\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+out

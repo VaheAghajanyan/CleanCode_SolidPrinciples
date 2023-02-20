@@ -1,0 +1,21 @@
+The SOLID principles are a set of five design principles that were introduced by Robert C. Martin (also known as Uncle Bob) to
+help developers write clean, maintainable, and scalable code. Here's a brief summary of each principle:
+
+- Single Responsibility Principle (SRP): A class should have only one reason to change, which means it should have only one responsibility.
+This principle encourages developers to break down large, complex classes into smaller, simpler ones that are easier to understand, test, and maintain.
+
+- Open-Closed Principle (OCP): Software entities (classes, modules, etc.) should be open for extension, but closed for modification.
+This means that you should be able to add new functionality to a system without modifying its existing code.
+This principle encourages the use of abstraction and polymorphism to make a system more flexible and adaptable to changing requirements.
+
+- Liskov Substitution Principle (LSP): Subtypes must be substitutable for their base types. This means that if a method expects an object of a certain type,
+it should be able to accept any subtype of that type without altering the correctness of the program.
+This principle ensures that inheritance is used correctly and that subclasses don't introduce unexpected behavior.
+
+- Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they don't use.
+This means that you should split large interfaces into smaller, more focused ones that are easier to implement and maintain.
+This principle encourages the use of composition and delegation over inheritance and helps to prevent code bloat and complexity.
+
+- Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions.
+This means that you should depend on abstractions (interfaces, abstract classes, etc.) rather than on concrete implementations.
+This principle encourages loose coupling between components and makes it easier to swap out one implementation for another.
